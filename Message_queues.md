@@ -58,7 +58,7 @@ Versatility: Message queue solutions can support multiple languages, such as Jav
 10. Confluent
 
 
-## Message Bus
+## Enterprise Message Bus
 
 An enterprise contains several existing systems that must be able to share data and operate in a unified manner in response to a set of common business requests.
 
