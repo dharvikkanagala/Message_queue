@@ -57,12 +57,18 @@ Versatility: Message queue solutions can support multiple languages, such as Jav
 
 10. Confluent
 
-## Enterprise Service Bus (ESB)
 
-An Enterprise Service Bus (ESB) is fundamentally an architecture. It is a set of rules and principles for integrating numerous applications over a bus-like infrastructure. ESB products enable users to build this type of architecture but vary in the way that they do it and the capabilities that they offer. The core concept of the ESB architecture is that you integrate different applications by putting a communication bus between them and then enable each application to talk to the bus. This decouples systems from each other, allowing them to communicate without dependency on or knowledge of other systems on the bus. The concept of ESB was born out of the need to move away from point-to-point integration, which becomes brittle and hard to manage over time. Point-to-point integration results in custom integration code being spread among applications with no central way to monitor or troubleshoot. This is often referred to as "spaghetti code" and does not scale because it creates tight dependencies between applications.
+## Message Bus
 
-Increasing organizational agility by reducing time to market for new initiatives is one of the most common reasons that companies implement an ESB as the backbone of their IT infrastructure. An ESB architecture facilitates this by providing a simple, well-defined, "pluggable" system that scales well. Additionally, an ESB provides a way to leverage your existing systems and expose them to new applications using its communication and transformation capabilities.
+An enterprise contains several existing systems that must be able to share data and operate in a unified manner in response to a set of common business requests.
 
+What is an architecture that enables separate applications to work together, but in a decoupled fashion such that applications can be easily added or removed without affecting the others?
+
+![Message Queue](https://www.enterpriseintegrationpatterns.com/img/MessageBusSolution.gif)
+
+Structure the connecting middleware between these applications as a Message Bus that enables them to work together using messaging.
+
+A Message Bus is a combination of a common data model, a common command set, and a messaging infrastructure to allow different systems to communicate through a shared set of interfaces. This is analogous to a communications bus in a computer system, which serves as the focal point for communication between the CPU, main memory, and peripherals. Just as in the hardware analogy, there are a number of pieces that come together to form the message bus
 ## Reference
 https://www.ibm.com/cloud/learn/message-queues
 
@@ -73,3 +79,5 @@ https://stackshare.io/message-queue
 https://aws.amazon.com/pub-sub-messaging/
 
 https://www.mulesoft.com/resources/esb/what-esb
+
+https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBus.html
