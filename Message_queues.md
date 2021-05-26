@@ -63,8 +63,13 @@ An Enterprise Service Bus (ESB) is fundamentally an architecture. It is a set of
 
 Increasing organizational agility by reducing time to market for new initiatives is one of the most common reasons that companies implement an ESB as the backbone of their IT infrastructure. An ESB architecture facilitates this by providing a simple, well-defined, "pluggable" system that scales well. Additionally, an ESB provides a way to leverage your existing systems and expose them to new applications using its communication and transformation capabilities.
 
+## Reference
 https://www.ibm.com/cloud/learn/message-queues
+
 https://www.cloudamqp.com/blog/what-is-message-queuing.html
+
 https://stackshare.io/message-queue
+
 https://aws.amazon.com/pub-sub-messaging/
+
 https://www.mulesoft.com/resources/esb/what-esb
